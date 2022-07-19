@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+ @font-face{
+    font-family:rick;
+    src:url(../fonts/rick.ttf);
+} 
+ body{
+    /*background-image:linear-gradient(90deg,rgb(184, 102, 252),rgb(0, 255, 255),rgb(255, 0, 128));*/
+
+ }
+.contenedor-rm{
+
+    background-image: url(../imagenes/stars.gif);
+  
+    
+}
+.episode::after{
+    content: "-";
+}
+.episode:last-child::after{
+    content: "";
+}
+.container-target-rm{
+display:flex;
+flex-wrap: wrap;
+justify-content: center;
+
+}
+.container-target-rm .target-rm{    
+    border-radius: 20px;
+    background-color: #01b5c6;
+    box-shadow: 0px 0px 5px 4px  #98ce4c;
+   
+    width: 400px;
+    margin: 20px;
+    position: relative;
+    padding: 10px;
+ }
+.container-target-rm .target-rm img{
+
+    box-shadow: 0px 0px 2px 2px  #97ce4c;
+    border-radius: 20px;
+    top:-15px;
+    right: 10px;
+    width: 140px;
+    position: absolute;
+ }
+ .container-target-rm .target-rm h1{ 
+    width: 50%;
+    font-size: 30px;
+    font-family: rick;
+    color: #fff874;
+    text-shadow: 2px 2px 4px #000000;
+ }
+ .container-target-rm .target-rm h6{
+    width: 70%;
+    font-size: 1em;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #fff874;
+    text-shadow: 2px 2px 4px #000000;  
+ }
+ .container-target-rm .target-rm h5{
+    font-size: 13px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #fff874;
+    text-shadow: 2px 2px 4px #000000;  
+ }
+.nav{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    min-height: 10vh;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 1px 1px  #01b4c6;
+}
+.searchRick{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    
+}
+.searchRick img{
+    position: relative;
+   
+}
+.searchRick input{
+    position: absolute;
+    box-shadow: 0px 0px 5px 5px  #d65aad;
+  border: none;
+    border-radius: 15px;
+    padding: 7px;
+    background-color: #e4e4e4;
+    width: 150px;
+    color: #d65aad;   
+
+    font-family: 'fontawesome',Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+.searchRick input:focus,.searchRick input::placeholder{
+font-weight: bolder;
+color: #f675da;
+
+
+}
+
+.carga,.carga span{
+   
+    display: flex;
+    justify-content: center;
+    font-family: rick;
+    font-size: 50px;
+    color:#f675da ;
+}
+.pags{
+    border: 1px solid saddlebrown;
+}
+.title-rm{
+    color:#f675da ;
+    width: 100%;
+    text-align: center;
+    margin: 20px;
+    font-family: square;
+    font-size: 50px;
+
+}
+.title-search-rm{
+    color:#f675da ;
+   text-align: center;
+    margin: 20px;
+    font-family: square;
+    font-size: 50px;
+    
+}
+
+@media screen and (max-width:768px){
+    
+    .searchRick img{
+        width: 350px;
+    }
+}

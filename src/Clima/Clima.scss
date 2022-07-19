@@ -1,0 +1,38 @@
+.contenedor-clima{
+    width: 100%;
+    height: 100vh;
+    background-image: url('fondotime.jpg');
+    background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .clima{
+        width: 70%;
+        min-height: 50vh;
+        backdrop-filter:blur(10px);
+        border-radius: 20px;
+        box-shadow: 0 8px 32px 0 rgba(121, 120, 120, 0.37);
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        padding: 10%;
+    }
+    input{
+        
+    }
+
+    p{
+        margin:10px;
+        font-family: arial;
+       color: rgb(252, 252, 252);
+    }
+    label{
+        font-size: 1.2em;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: rgb(154, 247, 247);
+    }
+    button{
+      margin-top: 10px;
+    }
+
+}

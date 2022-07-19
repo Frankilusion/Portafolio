@@ -1,0 +1,71 @@
+
+.contenedor-BuscadorContacto {
+    background-image: url('fondo103.jpg');
+    background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    height: 100VH;
+  
+}
+.contenedor-BuscadorContacto  .primero{
+
+
+backdrop-filter:blur(10px);
+  
+  width: 70%;
+  padding: 30px;
+
+  border-radius: 20px;
+  
+  box-shadow: 0 8px 32px 0 rgba(121, 120, 120, 0.37);
+  
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.contenedor-BuscadorContacto  h1{
+  text-align: center;
+ color: rgb(27, 27, 27);
+ font-weight: bold;
+ font-family: arial;
+ font-size: 1.3rem;
+ 
+}
+.contenedor-BuscadorContacto  i{
+  color: rgb(0, 0, 0);
+  padding-right: 5px;
+}
+
+
+
+.contenedor-BuscadorContacto  .cont-contactos {
+padding: 10px;
+
+}
+
+.App .contacto {
+font-family:arial;
+margin:0;
+color: rgb(53, 49, 49);
+}
+
+.span{
+  width: 100%;
+  height: 1px;
+  background-color: rgba(31, 31, 31, 0.288);
+}
+
+.overflow{
+  margin-top: 5vh;
+  height: 50vh;
+  overflow-y:scroll;
+}
+
+.overflow::-webkit-scrollbar {
+display: none;
+}
+
+/*# sourceMappingURL=App.css.map */

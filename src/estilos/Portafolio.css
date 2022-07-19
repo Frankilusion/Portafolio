@@ -1,0 +1,310 @@
+@font-face{
+    font-family: square;
+    src:url(../fonts/Bangers-Regular.ttf);
+}
+@font-face{
+    font-family: quick;
+    src:url(../fonts/Quicksand-Light.ttf);
+}   
+@font-face{
+    font-family:Koulen;
+    src:url(../fonts/Koulen-Regular.ttf);
+}   
+#Contenedor-portafolio{ 
+    margin-left: 210px;
+    height: 100vh;
+    overflow-x: hidden;
+ 
+}
+#Contenedor-portafolio .fondo{
+    position: relative;   
+}
+#Contenedor-portafolio .fondo h1{  
+  
+    text-align: end;
+    font-size: 14em;
+    font-family: square; 
+    color: #151e243d;
+    letter-spacing: 5px; 
+   
+    
+}
+#Contenedor-portafolio .portafolio{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;   
+}
+
+.portafolio h2{
+    padding-left: 50px;
+    font-family: arial;
+    font-size: 4.5em;
+    font-weight: bold;
+    color: #ff6642;
+}
+.portafolio p{
+    padding-left: 70px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-family: quick;
+    font-size: 1.3em;
+    color: azure;
+    width: 60%;  
+
+}
+
+.work{
+
+    height: 80vh;
+ 
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap:0px;
+ 
+}
+
+.work .caja{  
+    background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;   
+    max-width: 100%;
+    object-fit: contain;
+    
+
+   
+}
+
+.work .caja  a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(0, 0,0,.0);
+    max-width: 100%;
+   
+    position: absolute;/*importante*/
+    width: 20%;
+    height: 40vh;
+  
+    
+    background-color: rgba(0, 0,0,.7);  
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text_caja{
+    word-wrap: break-word;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.text_caja h3{
+    word-wrap: break-word;
+  
+   width: 70px;
+   height: 70px;
+   border-radius: 50%;
+
+   
+    font-family: square;
+    letter-spacing: 2px;
+    position: relative;
+ z-index: -1;
+ color:#ff6642; 
+   background-color: #182c42; 
+   border: 1px solid #252427;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+  
+}
+
+.work .caja a:hover{
+    background-color: rgba(0, 0,0,.1);  
+   transition: 1s;
+    z-index: 1;
+ 
+
+    
+}
+
+
+#c1{
+    background-image: url('../imagenes/load.jpg'); 
+}
+#c2{
+    background-image: url('../imagenes/load.jpg');    
+}
+
+#c3{
+    background-image: url('../imagenes/load.jpg');    
+}
+#c4{
+    background-image: url('../imagenes/kinder.png');    
+}
+#c5{
+    background-image: url('../imagenes/rick-morty.jpg');    
+}
+#c6{
+    background-image: url('../imagenes/todolist2.png');    
+}
+#c7{
+    background-image: url('../imagenes/calculadora.png');    
+}
+#c8{
+    background-image: url('../imagenes/step11.png');    
+}
+#c9{
+    background-image: url('../imagenes/contactos.png');    
+}
+#c10{
+    background-image: url('../imagenes/clima.png');    
+}
+
+
+
+
+@media screen and (max-width:1400px){
+    #Contenedor-portafolio{ 
+        margin-left: 200px;
+        height: 100vh;   
+    }
+    #Contenedor-portafolio .fondo h1{    
+        font-size: 10em;
+    }
+    
+
+    .portafolio h2{
+     
+        font-size: 4em;
+   
+    }
+    .portafolio p{
+    
+        font-size: 1.2em;
+       
+    
+    }
+
+    .work{
+
+        height: 70vh;
+     
+    }
+    .work .caja  a{
+       
+        height: 35vh;
+    }
+}
+
+@media screen and (max-width:992px){
+    #Contenedor-portafolio{
+    
+        margin-left: 0px;
+        height: 120vh;
+    }
+
+    .portafolio h2{
+     
+        font-size: 4em;
+   
+    }
+    .portafolio p{
+    
+        font-size: 1.2em;
+       
+    
+    }
+
+    
+    .work{
+
+        height: 100vh;
+     
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap:0px;
+     
+    }
+
+    .work .caja  a{
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.4);
+
+        max-width: 100%;
+       
+        position: absolute;/*importante*/
+        width: 50%;
+        height: 20vh;
+    }
+      
+    }  
+
+
+
+@media screen and (max-width:768px){
+    #Contenedor-portafolio{ 
+        margin-left: 0px;
+        height: 130vh;   
+    }
+    .portafolio h2{
+        padding-left: 10px;
+        
+        font-size: 3em;
+      
+    }
+
+    
+    #Contenedor-portafolio .fondo h1{   
+        text-align: center;
+        font-size: 8em;  
+    }
+
+
+
+
+
+    .portafolio p{
+        padding-left: 20px;
+        padding-top: 10px;
+       width: 90%;
+        font-size: 1em;
+    }
+
+    .work{
+
+        height: 100vh;
+     
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap:0px;
+     
+    }
+    .work .caja  a{
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.4);
+
+        max-width: 100%;
+       
+        position: absolute;/*importante*/
+        width: 50%;
+        height: 20vh;
+
+        
+     
+        
+    }
+
+    .text_caja .text_target{
+        display: none;
+    }
+    .text_caja h3{
+        font-size: 1.5em;
+    }
+
+
+}

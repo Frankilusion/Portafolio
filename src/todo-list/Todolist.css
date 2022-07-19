@@ -1,0 +1,132 @@
+@font-face{
+    font-family: life;
+    src:url(../fonts/lifebold.ttf);
+}
+
+.contenedor-todolist{
+    background-color: #ebe8d8;
+    min-height: 100vh;
+    display: flex;
+    padding: 20px;
+
+    justify-content: center; 
+    width: 100%;
+}
+
+.todolist{
+  
+    width: 50%;  
+    box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+    background-color: #BFDC36;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+.targeta-formulario{
+  
+    padding: 10px;
+   
+   
+}
+.todolist-form{
+    background-color: #BFDC36;
+    border-radius: 10px;
+    
+    box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    
+
+
+    
+}
+
+
+
+.contenedor-tareas{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;  
+    padding: 10px;
+    gap: 10px;
+    justify-content: center;
+}
+.todolist-tareas{
+    background-color: #c3d664;
+    border-radius: 10px;
+    word-wrap: break-word;
+    box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+    width: 400px;
+    height: 200px;
+    
+    padding: 10px;
+}
+
+
+.label{
+    
+font-family: arial;
+display: flex;
+justify-content: center;
+margin:10px;
+color: #475161;
+font-family: life;
+word-wrap: break-word;
+
+
+}
+
+.contenedor-boton{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 10px;
+    margin-top: 20px;
+    gap: 10px;
+    
+}
+
+#boton-todolist{
+background-color: #FF614C;
+border: NONE;
+color: #475161;
+font-family: life;
+margin-top:5px;
+
+}
+
+#boton-todolist:hover{
+    background-color: #dd5442;
+    color: #475161;
+}
+
+#input-todolist{
+
+    background-color: bisque;
+    border: none;
+    border-radius: 10px;
+    font-family: arial,'fontawesome';
+
+}
+
+
+.caja-texto{
+    font-family: life;
+ 
+    max-height: 120px;
+    word-wrap: break-word;
+    overflow-y: auto;
+
+}
+
+
+@media screen and (max-width:1200px){
+    .todolist{
+        width: 100%;
+    }
+}

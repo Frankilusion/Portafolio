@@ -1,0 +1,122 @@
+@font-face{
+    font-family: square;
+    src:url(../fonts/Bangers-Regular.ttf);
+} 
+@font-face{
+    font-family:quick;
+    src:url(../fonts/Quicksand-Light.ttf);
+} 
+
+#Contenedor-About{
+    margin-left: 210px;
+   
+
+}
+#Contenedor-About .fondo{
+   
+
+    position: relative;
+}
+
+#Contenedor-About .fondo h1{
+  
+    font-size: 14em;
+    text-align: end;
+    font-family: square;
+    color: #151e243d;
+    letter-spacing: 5px; 
+}
+
+
+#Contenedor-About .fondo .about-me{
+    position: absolute;
+    top: 0; /*encima todo*/
+
+width: 60%;
+}
+#Contenedor-About .fondo .about-me h2{
+    padding-left: 50px;
+    font-family: arial;
+    font-size: 4.5em;
+    font-weight: bold;
+    color: #ff6642;
+}
+
+
+
+#Contenedor-About .fondo .about-me p{
+    padding-left: 70px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-family: quick;
+    font-size: 1.3em;
+    color: azure;     
+}
+
+@media screen and (max-width:1400px){
+    
+    #Contenedor-About{
+        margin-left: 200px;    
+    }
+    #Contenedor-About .fondo h1{
+  
+        font-size: 10em;
+        
+    }
+    #Contenedor-About .fondo .about-me h2{
+        padding-left: 50px;
+        font-family: arial;
+        font-size: 4em;
+     
+    }  
+    #Contenedor-About .fondo .about-me p{
+      
+        font-size: 1.2em;
+        
+    }
+
+
+
+
+ 
+
+ 
+}
+
+@media screen and (max-width:992px){
+    #Contenedor-About{
+        margin-left: 0px;  
+      
+    }
+}
+
+@media screen and (max-width:768px){
+    #Contenedor-About{
+        margin-left: 0px;  
+      
+    }
+    #Contenedor-About .fondo h1{
+  
+        font-size: 8em;
+        text-align: center;
+    }
+    #Contenedor-About .fondo .about-me h2{
+        padding-left: 10px;
+       
+        font-size: 3em;
+        
+    }
+    #Contenedor-About .fondo .about-me{
+        
+    width: 90%;
+    }
+    #Contenedor-About .fondo .about-me p{
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        font-family: quick;
+        font-size: 1em;
+       
+    }
+    
+}
